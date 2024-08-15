@@ -5,3 +5,12 @@ CREATE TABLE public.customers (
     location_id integer,
     col_idx character varying(15)
 )
+
+CREATE TABLE public.films (
+    code character(5),
+    title character varying(40),
+    did integer,
+    date_prod date,
+    kind character varying(10),
+    len interval
+);
