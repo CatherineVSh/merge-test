@@ -2,8 +2,7 @@ CREATE TABLE public.customers (
     cust_id integer NOT NULL,
     cust_name character varying(30),
     cust_reg_date date NOT NULL,
-    location_id integer,
-    col_idx character varying(15)
+    location_id integer
 );
 
 CREATE TABLE public.films (
