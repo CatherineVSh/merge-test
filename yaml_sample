@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: Dim_Order
+    description: ''
+    columns:
+      - name: OrderId
+        description: ''
+      - name: OrderNumber
+        description: ''
